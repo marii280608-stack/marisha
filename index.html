@@ -1,108 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imtihon</title>
-    <link rel="stylesheet" href="style.css">
+    <title>form</title>
 </head>
-
 <body>
-    <h1>Добро пожаловать на <mark>сайт BMW!</mark></h1>
-    <p>Вы здесь узнаете о машинах BMW</p>
+    <h3>Salutation</h3>
+    <form>
+        <label for=""></label>
+         <select name="salutation" id="salutation">
+            <option value="">--None--</option>
+            <option value="1">Russian</option>
+            <option value="2">English</option>
+            <option value="3">Turkish</option>
+            <option value="4">Uzbek</option>
+        </select>
+         <br><br>
+         <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname">
+    <br><br>
+    <label for="Iname">Last name:</label>
+    <input type="text" id="Iname" name="Iname">
+    <br><br>
+        <label>Gender :</label><input type="radio" name="gender">
+        <label for="">Male</label><input type="radio" name="gender" id="">
+        <label for="">Female</label><input type="radio" name="gender id="">
+         <br><br>
+         <label for="">Email</label><input type="email" name="" id="">
+         <br><br>
+         <label for="">Date of Brith: </label><input type="date" name="" id="">
+         <br><br>
+        <label for="address">Adreess: </label><br>
+        <textarea name="" id="" cols="40" rows="4"></textarea>
+         <br><br>
+         <input type="submit" value="Submit">
 
 
-    <ul>
-        <b>
-            <li style="color:rgb(3, 141, 42);">Наши машины</li>
-        </b>
-        <br>
-        <li style="color:rgb(69, 53, 186);">BMW M3</li>
-        <li style="color:brown;">BMW M4</li>
-        <li style="color:rgb(181, 39, 160);">BMW M5</li>
-        <li style="color:rgb(50, 165, 42);">BMW X6</li>
-    </ul>
-
-    <table>
-        <caption>
-                    <h2 class="info">Информациия о моделях BMW</h2>
-        </caption>
-
-        <tr>
-            <th>Модель</th>
-            <th>Двигатель</th>
-            <th>Разгон 0–100 км/ч</th>
-            <th>Макс. скорость</th>
-            <th>Мощность</th>
-            <th>Цена</th>
-        </tr>
-        <tr>
-            <td>BMW M3</td>
-            <td>3.0L Twin Turbo</td>
-            <td>3.9 сек</td>
-            <td>290 км/ч</td>
-            <td>480 л.с.</td>
-            <td>$75,000</td>
-        </tr>
-        <tr>
-            <td>BMW M4</td>
-            <td>3.0L Twin Turbo</td>
-            <td>3.7 сек</td>
-            <td>295 км/ч</td>
-            <td>510 л.с.</td>
-            <td>$82,000</td>
-        </tr>
-        <tr>
-            <td>BMW M5</td>
-            <td>4.4L V8 Twin Turbo</td>
-            <td>3.1 сек</td>
-            <td>305 км/ч</td>
-            <td>635 л.с.</td>
-            <td>$110,000</td>
-        </tr>
-        <tr>
-            <td>BMW X6</td>
-            <td>4.4L V8</td>
-            <td>4.3 сек</td>
-            <td>250 км/ч</td>
-            <td>530 л.с.</td>
-            <td>$90,000</td>
-        </tr>
-    </table>
-    <div class="form-section">
-        <label for="">Выберите цвет машины:</label>
-        <input type="color">
-        <!-- <select name="color">
-        <option value="red">Красный</option>
-        <option value="blue">Синий</option>
-        <option value="black">Чёрный</option>
-        <option value="white">Белый</option>
-        <option value="raspberry">Малиновый</option>
-    </select> -->
-
-        <h3>Выберите модель машины</h3>
-        <label><input type="radio" name="model"> BMW X5</label>
-        <label><input type="radio" name="model"> BMW X7</label>
-        <label><input type="radio" name="model"> BMW M3</label>
-        <label><input type="radio" name="model"> BMW M5</label>
-        <br><br>
-        <input type="submit" value="Отправить">
-        </form>
-    </div>
 
 
-    <div class="car-images">
-        <img width="50%" src="photo_2025-10-15_03-39-21.jpg" alt="BMW X5">
-        <img src="photo_2025-10-15_03-41-55.jpg" alt="BMW X7">
-        <img width="50%" src="photo_2025-10-15_03-41-57.jpg" alt="BMW M3">
-        <img width="35%" src="photo_2025-10-15_03-42-00.jpg" alt="BMW M5">
-    </div>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.8052290170434!2d69.2400730157087!3d41.31108197927179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ae10d872f41%3A0xb5c707c64a506d90!2sBMW%20Service%20Tashkent!5e0!3m2!1sru!2s!4v1661530990437!5m2!1sru!2s"
-        width="600" height="450" allowfullscreen="" loading="lazy">
-    </iframe>
 
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
 </body>
-
 </html>
